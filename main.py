@@ -85,7 +85,7 @@ async def handler(event):
         print("Error:", e)
 
 async def main():
-    await client.start()
+    await client.start(bot_token=bot_token)
     print("Bot is now running...")
     await client.run_until_disconnected()
 
