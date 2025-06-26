@@ -73,7 +73,7 @@ async def handler(event):
 
 🔴 STOP: {stop_text}
 
-🚀 HƏDƏFLƏR
+HƏDƏFLƏR 🚀
 {formatted_targets}
 
 #Yatırım tövsiyyəsi deyil! Biz tərəfdən açılmış əməliyyatlar sizinlə bölüşülür."""
