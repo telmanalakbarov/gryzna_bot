@@ -38,7 +38,7 @@ async def handler(event):
             #print(leverage)
             #print(entry)
             #print(stop)
-            
+
             # Parse values
             pair = f"{pair_match.group(1).capitalize()} / {pair_match.group(2)}" if pair_match else "Pair / USDT"
             direction_text = direction.group(1).upper() if direction else "LONG"
@@ -73,7 +73,7 @@ async def handler(event):
 
 🔴 STOP: {stop_text}
 
-HƏDƏFLƏR 🚀
+🚀 HƏDƏFLƏR
 {formatted_targets}
 
 #Yatırım tövsiyyəsi deyil! Biz tərəfdən açılmış əməliyyatlar sizinlə bölüşülür."""
