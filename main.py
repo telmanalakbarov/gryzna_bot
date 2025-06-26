@@ -76,7 +76,7 @@ async def handler(event):
 HƏDƏFLƏR 🚀
 {formatted_targets}
 
-Yatırım tövsiyyəsi deyil! Biz tərəfdən açılmış əməliyyatlar sizinlə bölüşülür."""
+#Yatırım tövsiyyəsi deyil! Biz tərəfdən açılmış əməliyyatlar sizinlə bölüşülür."""
 
             # Send it
             await bot.send_message(chat_id=target_channel, text=final_message, parse_mode=ParseMode.HTML)
