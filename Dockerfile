@@ -9,7 +9,7 @@ COPY . .
 
 # Install dependencies
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install -r requiremens.txt
 
 # Run your bot
 CMD ["python", "main.py"]
